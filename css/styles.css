@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  padding: 10%;
+  height: 100vh;
+  color: white;
+}
+
+.footer {
+  border: 5px solid grey;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 5% 7% 5% 7%;
+  gap: 10%;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  /* position: relative; */
+}
+
+.bottom .random-data {
+  width: 25%;
+  font-size: .70em;
+  text-align: right;
+  /* position: absolute;
+  right: -4%; */
+  margin-left: 78%;
+  margin-bottom: 2%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.right-nav ul li{
+  display: inline;
+  margin-right: 4%;
+}
+
+
+.right-nav ul {
+  width: 115%;
+}
+
+h1 {
+  margin-bottom: 10%;
+  font-size: 4em;
+}
+h2 {
+  margin-bottom: 13%
+}
+
+
+.top-li {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 7%;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+span{
+  position: relative;
+}
+
+span::after {
+  content: '';
+  position: absolute;
+  background-color: white;
+  height: 1px;
+  width: 0%;
+  left: 0;
+  bottom: 0;
+  transition: 0.5s;
+}
+
+span:hover::after {
+  width: 100%;
+}
+
+h1:: after {
+  content: "";
+  position: absolute;
+  background-color: white;
+  height: 3px;
+  width: 100%;
+}
+
+.l1 li {
+  transition: 0.3s;
+}
+
+.l1:hover li {
+  filter: blur(1.3px);
+}
+
+.l1 li:hover {
+  filter: blur(0px);
+}
+
+.l2 li {
+  transition: 0.3s;
+}
+
+.l2:hover li {
+  filter: blur(1.3px);
+}
+
+.l2 li:hover {
+  filter: blur(0px);
+}
+
+.l3 li {
+  transition: 0.3s;
+}
+
+.l3:hover li {
+  filter: blur(1.3px);
+}
+
+.l3 li:hover {
+  filter: blur(0px);
+}
+
+.l4 li {
+  transition: 0.3s;
+}
+
+.l4:hover li {
+  filter: blur(1.3px);
+}
+
+.l4 li:hover {
+  filter: blur(0px);
+}
